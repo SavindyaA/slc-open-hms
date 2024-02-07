@@ -54,7 +54,9 @@ export const postData = async (url: string,data:any):Promise<ApiResponse> => {
       
       if (response.status == 200) 
       {
+        //comment here
         return response;
+
       }
             
       return await response.json();
